@@ -1,14 +1,6 @@
 import { useEffect, useRef } from "react";
 
-const ProgressBar = ({
-  //handleClickBar,
-  //barContainerRef,
-  //handleThumbMouseDown,
-  //isDruggingRef,
-  progress,
-  setProgress,
-  setLength,
-}) => {
+const ProgressBar = ({ progress, setProgress, setLength }) => {
   const barContainerRef = useRef(null);
   const isDruggingRef = useRef(false);
 

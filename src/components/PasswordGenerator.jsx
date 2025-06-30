@@ -28,25 +28,6 @@ const PasswordGenerator = ({
         setLength={setLength}
         progress={progress}
       />
-      {/* <div
-        className="progressive-bar__container"
-        ref={barContainerRef}
-        onClick={handleClickBar}
-      >
-        <div
-          className="progressive-bar"
-          style={{ width: `${progress}%` }}
-        ></div>
-        <div
-          className="progressive-bar__thumb"
-          onMouseDown={handleThumbMouseDown}
-          style={{
-            position: "absolute",
-            left: `calc(${progress}% - 15px)`,
-            top: "-25%",
-          }}
-        ></div>
-      </div> */}
       <ul className="options-list">
         <li className="list-item">
           <input
