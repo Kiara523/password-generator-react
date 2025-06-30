@@ -43,10 +43,7 @@ function App() {
     if (options.uppercase) chars += uppercase;
     if (options.numbers) chars += numbers;
     if (options.symbols) chars += symbols;
-    console.log(chars);
-
     let pwd = "";
-
     for (let i = 0; i < length; i++) {
       pwd += chars[Math.floor(Math.random() * chars.length)];
     }
